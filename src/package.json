@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "local": "NODE_ENV=production next start"
   },
   "dependencies": {
     "@azure/ai-form-recognizer": "^5.0.0",
